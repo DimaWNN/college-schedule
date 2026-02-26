@@ -1,4 +1,11 @@
-from aiogram.dispatcher.filters.state import State, StatesGroup
+from aiogram.fsm.state import State, StatesGroup
 
 class ReplaceState(StatesGroup):
-    text = State()
+    choose_date = State()
+    enter_text  = State()
+
+class CreateGroupState(StatesGroup):
+    enter_name = State()
+
+class TransferLeaderState(StatesGroup):
+    choose_member = State()
