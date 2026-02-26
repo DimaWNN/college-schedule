@@ -26,7 +26,7 @@
 2. Установи зависимости:
    ```bash
    pip install \
-    aiogram==2.25.2 \
+    aiogram==3.25.0 \
     openpyxl \
     apscheduler \
     python-dotenv               # если захочешь хранить TOKEN в .env
