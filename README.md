@@ -15,7 +15,7 @@
 ### Технологии
 
 - Python 3.10+
-- Aiogram 2.x (асинхронный Telegram Bot API)
+- Aiogram  3.25.0 (асинхронный Telegram Bot API)
 - SQLite — лёгкая и надёжная база данных
 - APScheduler — планировщик ежедневных рассылок
 - openpyxl — парсинг расписания и замен из Excel-файлов
